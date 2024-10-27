@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Recreation of Netflix Webpage</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+
+
+<body>
+
+<header>
+
+    <nav class="navbar bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand mx-5 fw-bold" style="font-size: 45px; color: red;">NETFLIX</a>
+                  <form class="d-flex" role="search">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-light dropdown-toggle me-3 fw-bold" type="button" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                          English
+                        </button> 
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">English</a></li>
+                          <li><a class="dropdown-item" href="#">Hindi</a></li>
+                          <li><a class="dropdown-item" href="#">Tamil</a></li>
+                        </ul>
+                      </div>
+    
+                    <button class="btn btn-outline-success me-3 w-50 fw-bold" type="submit" 
+                    style="background-color: red ;  border: 0;"><a href="https://www.netflix.com/login" target="_blank"
+                     style="color: white; text-decoration: none; font-weight: bold;">Sign In</a></button>
+                  </form>     
+                </div>
+    </nav>
+    
+</header>
+   
+    <div class="bannercard">
+
+      <div class="image">
+        <img src="bgimg.png" class="img-fluid"  alt="Bg image">
+      </div>
+
+    <div class="inner">
+    
+      <p class="p1 text-center fw-bold ">Unlimited movies, TV shows and more</p>
+
+      <p class="p2 text-center ">Center aligned text on all viewport sizes.</p>
+ 
+      <p class="p3 text-center "> Starts at ₹149. Cancel at any time
+      Ready to watch? Enter your email to create or restart your membership.</p>
+      
+
+      <form class=" row g-4">
+        <div class= "d-grid col-6">  
+          <div class=" form-floating mb-3">
+            <input type="email" class="form-control"  id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput" class="text-center" style="color: black;" >Email address</label>
+          </div>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-outline-success fw-bold" type="submit" 
+          style="background-color: red ; color: white; border: 0; height: 57px;">Get Started</button>
+        </div>
+      </form>
+    </div>
+
+    </div>
+
+<section>
+
+  <div class="container md">
+    <div class="title ms-5 my-5">
+      <h2 style="color: white; margin-left: 40px;">Tranding now</h2>
+      <br>
+  
+    <div class="dropdown ms-5  ">
+      <button class="btn btn-secondary dropdown-toggle fw-bold" type="button" 
+       data-bs-toggle="dropdown" aria-expanded="false" style="background-color: red; color: white; border: 0;">
+       India
+      </button>
+  
+      <ul class="dropdown-menu">
+       <li><button class="dropdown-item" type="button">Tamil</button></li>
+       <li><button class="dropdown-item" type="button">India</button></li>
+       <li><button class="dropdown-item" type="button">Global</button></li>
+      </ul>
+  
+      <button class="btn btn-secondary dropdown-toggle fw-bold mx-3" type="button"
+      data-bs-toggle="dropdown" aria-expanded="false" style="background-color: red; color: white; border: 0;">
+       Movies
+      </button>
+  
+      <ul class="dropdown-menu">
+       <li><button class="dropdown-item" type="button">Movies</button></li>
+       <li><button class="dropdown-item" type="button">Tv Shows</button></li>
+       <li><button class="dropdown-item" type="button">Web Series</button></li>
+      </ul>
+    </div>
+    </div>         
+  
+    <div class="moviescard my-5" style="margin-left: 30px;">
+      <div class="row row-cols-2 row-cols-md-6 ms-5  g-4">
+        <div class="col">
+           <div class="card" style="background: transparent; border-radius: 5%;;">
+            <img src="trend1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <button type="button" class="btn fw-bold" style="background-color: red;  margin-left: 40px;">
+                <a href="https://www2.stage.netflix.com/co-en/title/70044605" style="color: white; text-decoration: none;"
+                target="_blank">Play</a></button>
+            </div>
+       </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background: transparent; border-radius: 5%;">
+            <img src="trend2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn fw-bold" style="background-color: red; color: white; margin-left: 40px;" >
+                  <a href="https://www3.stage.netflix.com/na/title/80013762" target="_blank" style="color: white; text-decoration: none;">Play</a></button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background: transparent; border-radius: 5%;">
+            <img src="trend3.jpg" class="card-img-top fw-bold" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn fw-bold" style="background-color: red; color: white; margin-left: 40px;">
+                <a href="" target="_blank" style="color: white; text-decoration: none;">Play</a></button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background: transparent; border-radius: 5%;">
+            <img src="trend4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn  fw-bold" style="background-color: red; margin-left: 40px;">
+                  <a href="https://www.netflix.com/va-en/title/81198900" target="_blank" 
+                  style=" color: white; text-decoration: none;">Play</a></button>
+              </div>
+         </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background: transparent; border-radius: 5%;">
+            <img src="trend5.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <button type="button" class="btn fw-bold" style="background-color: red;  margin-left: 40px;">
+                  <a href="https://www.netflix.com/in/title/70307658" target="_blank" 
+                  style="color: white; text-decoration: none;">Play</a></button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="background: transparent; border-radius: 5%;" >
+         <img src="trend6.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <button type="button" class="btn  fw-bold" style="background-color: red; margin-left: 40px;">
+            <a href="https://www.netflix.com/in/title/70005379?source=imdb" target="_blank"
+            style="color: white; text-decoration: none;">Play</a></button>
+         </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="background: transparent; border-radius: 5%;" >
+            <img src="trend7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn  fw-bold" style="background-color: red; margin-left: 40px;">
+                <a href="https://www.netflix.com/in/title/70056440" target="_blank"
+                style="color: white; text-decoration: none;">Play</a></button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="background: transparent; border-radius: 5%;" >
+            <img src="trend8.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn fw-bold" style="background-color: red; margin-left: 40px;">
+                <a href="https://www.moviefone.com/movie/the-lion-king/neKRrVNl0sdxRoJ2U8LB04/where-to-watch/" target="_blank" 
+                style="color: white; text-decoration: none;">Play</a></button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="background: transparent; border-radius: 5%;" >
+            <img src="trend9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <button type="button" class="btn fw-bold" style="background-color: red; color: white; margin-left: 40px;">
+                <a href="https://www.netflix.com/title/70301344"
+                target="_blank" style="color: white; text-decoration: none;">Play</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="background: transparent; border-radius: 5%;" >
+            <img src="trend10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <button type="button" class="btn  fw-bold" style="background-color: red; color:white; margin-left: 40px;">
+              <a href="https://www.netflix.com/in/title/80236314" target="_blank" style="text-decoration: none; color: white;">Play</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="background: transparent; border-radius: 5%;" >
+            <img src="trend11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <button type="button" class="btn fw-bold" style="background-color: red; color: white; margin-left: 40px;">
+              <a href="https://www.netflix.com/in/title/80232926" target="_blank"
+              style="color: white; text-decoration: none;">Play</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+        <div class="card"style="background: transparent; border-radius: 5%;" >
+            <img src="trend12.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn fw-bold" style="background-color: red; margin-left: 40px;">
+                <a href="https://www.netflix.com/in/title/81252357" target="_blank"
+                style="color: white; text-decoration: none;">Play</a></button>
+              </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="title1 ms-5 my-3">
+      <h2 style="color: white; font-weight: bold; margin-left: 40px;">More reasons to join</h2>
+    </div>
+  
+    <div class="gridcards" style="margin-left: 30px;">
+      <div class=" row row-cols-1 row-cols-md-4 ms-5 my-5 gap-4">
+  
+        <div class="card " style="width: 17rem; background-color: #321129e5; color: white;">
+       <div class="card-body">
+         <h4 class="card-title">Enjoy on your TV</h4>
+         <p class="card-text">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+         </p>
+         <a href="https://www.netflix.com/tv8" target="_blank" class="btn fw-bold" style="font-size: 20px; background-color: red; color:white; ">Click</a>
+         <img src="tv-app.png" class="rounded float-end" alt="..." style="height: 60px; width: 60px; bottom: 0;">
+       </div>
+  
+        </div>
+  
+        <div class="card" style="width: 17rem; background-color: #321129e5; color: white;">
+            <div class="card-body">
+              <h4 class="card-title">Watch offline on downloads</h4>
+              <p class="card-text">Save your favourites easily and always have something to watch.</p>
+              <a href="https://www.netflix.com/in/browse/genre/34399" target="_blank" class="btn fw-bold" style="font-size: 20px; background-color: red; color:white;">Click</a>
+              <img src="down-arrow.png" class="rounded float-end " alt="..." style="height: 50px; width: 50px; bottom: 0;">
+            </div>
+        
+        </div>
+        
+        <div class="card" style="width: 17rem; background-color: #321129e5; color: white; ">
+            <div class="card-body">
+              <h4 class="card-title">Watch everywhere</h4>
+              <p class="card-text">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV anywhere everytime.</p>
+              <a href="https://www.netflix.com/to/title/81569721" target="_blank" class="btn fw-bold" style="font-size: 20px;background-color: red; color:white;">Click</a>
+              <img src="telescope.png" class="rounded float-end " alt="..." style="height: 50px; width: 50px; bottom: 0;">
+        
+            </div>
+        </div>
+        
+        <div class="card" style="width: 17rem; background-color: #321129e5; color: white; ">
+            <div class="card-body">
+              <h4 class="card-title">Create profiles for kids</h4>
+              <p class="card-text">Send kids on adventures with their favourite characters in a space made just for them.</p>
+              <a href="https://www.netflix.com/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount"
+                target="_blank" class="btn fw-bold" style="font-size: 20px;background-color: red; color:white;">Click</a>
+              <img src="smile.png" class="rounded float-end " alt="..." style="height: 50px; width: 50px; bottom: 0;">
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="tittle2 ms-5 my-3">
+      <h2 style="color: white; font-weight: bold; margin-left: 40px;">Frequently Asked Questions</h2>
+    </div>
+  
+    <div class="gridbuttons ms-5 my-5">
+        
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+  
+      <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold " 
+              style=" background-color: whitesmoke; color: black; font-size: 20px;"
+               type="button" data-bs-toggle="collapse" 
+               data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is Netflix?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"  style="background-color: cornflowerblue; color: white;  font-size: 16px;">Netflix is a
+                streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                documentaries and more – on thousands of internet-connected devices. <br> <br>
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+                There's always something new to discover, and new TV shows and movies are added every week!
+              </div>
+            </div>
+      </div>
+        <br>
+      <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold " 
+               style=" background-color: whitesmoke; color: black;  font-size: 20px;" 
+              type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+               aria-expanded="false" aria-controls="flush-collapseTwo">
+                How much does Netflix cost?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"  style="background-color: cornflowerblue; color: white;  font-size: 16px;">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly
+                fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
+            </div>
+            </div>
+      </div>
+        <br>
+      <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold text-center" 
+               style=" background-color: whitesmoke; color: black; font-size: 20px;" 
+               type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Where can I watch?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"  style="background-color: cornflowerblue; color: white; font-size: 16px;">
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com 
+                from your personal computer or on any internet-connected device that offers the Netflix app, including smart 
+                TVs, smartphones, tablets, streaming media players and game consoles. <br> <br>
+                You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you'
+                re on the go and without an internet connection. Take Netflix with you anywhere.
+                </div>
+            </div>
+      </div>
+        <br>
+      <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold "  style=" background-color: whitesmoke; color: black; font-size: 20px;"
+             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+              How do I cancel?
+            </button>
+          </h2>
+          <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"  style="background-color: cornflowerblue; color: white ; font-size: 16px;">
+              Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account 
+              online in two clicks. There are no cancellation fees – start or stop your account anytime.
+
+            </div>
+          </div>
+      </div>
+        <br>
+      <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold "  style=" background-color: whitesmoke; color: black; font-size: 20px;" 
+             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+              What can I watch on Netflix?
+            </button>
+          </h2>
+          <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"  style="background-color: cornflowerblue; color: white; font-size: 16px;">
+              Netflix has an extensive library of feature films, documentaries, 
+              TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+            </div>
+          </div>
+      </div>
+        <br>
+      <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" style=" background-color: whitesmoke; color: black;
+             font-size: 20px;"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" 
+             aria-expanded="false" aria-controls="flush-collapseOne">
+              Is Netflix good for kids
+            </button>
+          </h2>
+          <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"  style="background-color: cornflowerblue; color: white; font-size: 16px;">
+              The Netflix Kids experience is included 
+              in your membership to give parents control while kids enjoy family-friendly TV shows and films in their 
+              own space. <br> <br>
+              Kids profiles come with PIN-protected parental controls that let you 
+              restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+            </div>
+          </div>
+      </div>
+        <br>
+
+    
+      </div> 
+  
+    </div>
+
+    <p class="h5"  style="color: white; text-align: center; margin-left: 60px;">Ready to watch? Enter your email to create or restart your membership.</p>
+       <br>
+    
+    <form class="row ">
+  
+      <div class="d-grid  col-6 ">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput" class="text-center">Email address</label>
+        </div>
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-outline-success fw-bold" type="submit" style="background-color: red ; color: white; border: 0; height: 55px;">Get Started</button>
+      </div>
+    </form>
+
+    <p class="h5 mt-5"  style="color: white; margin-left: 230px;">Questions? Call <span style="text-decoration: underline;">000-800-919-1694</span></p>
+
+    <div class="container text-center text-md-start  mt-5">
+      <div class="row ">
+       
+      <div class="footer-sec1 col-md-2 " >
+          <!-- Links -->
+          <p  style="color: white;">
+            <a href="https://help.netflix.com/en/node/412" target="_blank" class=" text-reset " >FAQ</a>
+          </p>
+          <p  style="color: white;">
+            <a href="https://ir.netflix.net/ir-overview/profile/default.aspx" target="_blank"
+            class="text-reset" >Investor Relations</a>
+          </p>
+          <p style=" color: white;">
+            <a href="https://help.netflix.com/legal/privacy" target="_blank"
+            class="text-reset" >Privacy</a>
+          </p>
+          <p  style="color: white;"> 
+            <a href="https://fast.com/" target="_blank"
+            class="text-reset" >Speed Test</a>
+          </p>
+      </div>
+
+      <div class=" footer-sec2 col-md-2 " >
+          <!-- Links -->
+        
+          <p style="color: white;">
+            <a href="https://help.netflix.com/en" target="_blank" class="text-reset" >Help Centre</a>
+          </p>
+          <p style="color: white;">
+            <a href="https://jobs.netflix.com/" target="_blank" class="text-reset" >Jobs</a>
+          </p>
+          <p style="color: white;">
+            <a href="" class="text-reset" target="_blank">Cookie Preferences</a>
+          </p>
+          <p style="color: white;">
+            <a href="https://help.netflix.com/legal/notices" target="_blank" class="text-reset" >Legal Notices</a>
+          </p>
+      </div>
+
+      <div class=" footer-sec3 col-md-2 ">
+          <!-- Links -->
+         
+          <p style="color: white;">
+            <a href="https://www.netflix.com/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount"
+             target="_blank" class="text-reset" >Account</a>
+          </p>
+          <p style="color: white;">
+            <a href="https://help.netflix.com/en/node/14361" 
+            target="_blank" class="text-reset" >Ways to Watch</a>
+          </p>
+          <p style="color: white;">
+            <a href="https://help.netflix.com/en/node/134094"
+             target="_blank" class="text-reset" >Corporate Information</a>
+          </p>
+          <p  style="color: white;">
+            <a href="https://www.netflix.com/in/browse/genre/839338" 
+            target="_blank" class="text-reset">Only on Netflix</a>
+          </p>
+      </div>
+       
+      <div class=" footer-sec4 col-md-2 ">
+          <!-- Links -->
+         
+          <p  style="color: white;">
+            <a href="https://media.netflix.com/en/" target="_blank" class="text-reset">Media Centre</a>
+          </p>
+          <p style="color: white;">
+            <a href="https://help.netflix.com/legal/termsofuse" 
+            target="_blank" class="text-reset" >Terms of Use</a>
+          </p>
+          <p  style="color: white;">
+            <a href="https://help.netflix.com/en/contactus" target="_blank" class="text-reset">Contact Us</a>
+          </p>
+      </div>
+       
+       
+      </div>
+    </div>
+ 
+    <div class="dropdown">
+      <button class="btn btn-outline-light dropdown-toggle mt-4 fw-bold " style="margin-left: 225px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            English
+      </button> 
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">English</a></li>
+          <li><a class="dropdown-item" href="#">Hindi</a></li>
+          <li><a class="dropdown-item" href="#">Tamil</a></li>
+        </ul>
+    </div>
+
+    <p class="fs-6  my-4" style="color: white; margin-left: 225px;">Netflix India</p>
+    
+  </div>  
+    
+</section>
+</body>
+
+
+</html>

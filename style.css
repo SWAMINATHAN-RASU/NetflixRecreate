@@ -1,0 +1,238 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.bannercard{
+    position: absolute;
+    height: 100vh;
+}
+.inner{
+    position:absolute;
+    top: 35%;
+    left: 25%;
+    color: white;
+}
+
+
+
+.image{
+    background: no-repeat;
+    background-size: cover; 
+}
+
+
+.image::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 425%;
+    background-color: rgba(0,0, 0, 0.75);
+
+}
+.p1{
+font-size: 30px;
+}
+.p2{
+font-size: 22px;
+}
+.p3{
+font-size: 15px;
+}
+section{
+
+    position: absolute;
+    top: 105%;    
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    transition: 0.4s;
+}
+
+.accordion-item:hover{
+    transform: scale(1.05);
+}
+.accordion-item{
+    transition: 0.3s;
+    margin-left: 35px;
+}
+
+.sec11, .sec12, .sec13, .sec14{
+    transform: scale(1.5);
+
+}
+
+.card-body button:hover{
+    transform: scale(1.1);
+}
+.card-body{
+    transition: 0.4s;
+}
+
+@media screen and (min-width:350px) and (max-width:449px) {
+    
+    .inner{
+        position:absolute;
+        top: 5%;
+        left: 5%;
+        color: white;
+    }
+.p1{
+    font-size: 18px;
+}
+.p2{
+    font-size: 14px;
+}
+.p3{
+    font-size: 12px;
+}
+section{
+
+    position: absolute;
+    top: 65%;    
+
+}
+
+}
+
+@media screen and (min-width:450px) and (max-width:550px) {
+    .image::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 660%;
+        background-color: rgba(0,0, 0, 0.75);
+    
+    }
+.inner{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 16px;
+}
+.p3{
+    font-size: 13px;
+
+}
+section{
+
+    position: absolute;
+    top: 50%;    
+
+}
+
+
+}
+
+@media screen and (min-width:551px)  and (max-width:700px)
+{
+    .image::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 710%;
+        background-color: rgba(0,0, 0, 0.75);
+    
+    }
+    
+    .inner{
+        position:absolute;
+        top: 10%;
+        left: 10%;
+        color: white;
+    }
+    .p1{
+        font-size: 23px;
+    }
+    .p2{
+        font-size: 18px;
+    }
+    .p3{
+        font-size: 15px;
+    }
+    section{
+
+        position: absolute;
+        top: 65%;    
+    
+    }
+
+}
+
+@media screen and (min-width:701px)  and (max-width:900px)
+{
+    .image::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 400%;
+        background-color: rgba(0,0, 0, 0.75);
+    
+    }
+    .inner{
+        position:absolute;
+        top: 15%;
+        left: 10%;
+        color: white;
+    }
+    .p1{
+        font-size: 25px;
+    }
+    .p2{
+        font-size: 18px;
+    }
+    .p3{
+        font-size: 15px;
+    }
+    section{
+
+        position: absolute;
+        top: 75%;    
+    
+    }
+}
+
+@media screen and (min-width:901px)  and (max-width:1200px)
+{
+    .image::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 400%;
+        background-color: rgba(0,0, 0, 0.75);
+    
+    }
+    .inner{
+        position:absolute;
+        top: 25%;
+        left: 25%;
+        color: white;
+    }
+    section{
+
+        position: absolute;
+        top: 90%;    
+    
+    }
+}
+
+
+
